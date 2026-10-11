@@ -17,7 +17,7 @@ export default async function EquipmentListPage({ searchParams }: PageProps<"/eq
   return (
     <div className="space-y-6">
       <div className="flex flex-wrap items-center justify-between gap-4">
-        <h1 className="text-2xl font-semibold">รายการครุภัณฑ์</h1>
+        <h1 className="text-2xl font-semibold">รายการครุภัณฑ์ (ทดสอบ CI/CD)</h1>
         <Link
           href="/equipment/new"
           className="rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
